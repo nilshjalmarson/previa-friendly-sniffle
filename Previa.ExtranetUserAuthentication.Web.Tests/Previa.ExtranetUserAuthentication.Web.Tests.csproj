@@ -208,10 +208,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Previa.ExtranetUserAuthentication.Web\Previa.ExtranetUserAuthentication.Web.csproj">
-      <Project>{cadde04e-cc9a-4d2e-948d-5c6c7cbde2af}</Project>
-      <Name>Previa.ExtranetUserAuthentication.Web</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Previa.ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.csproj">
       <Project>{FA36B5A7-5113-4BDA-B664-685D54E679CC}</Project>
       <Name>Previa.ExtranetUserAuthentication</Name>
