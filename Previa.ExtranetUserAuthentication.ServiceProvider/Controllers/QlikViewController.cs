@@ -57,8 +57,7 @@ namespace Previa.ExtranetUserAuthentication.ServiceProvider.Controllers
         public ActionResult Secure()
         {
             var identity = System.Web.HttpContext.Current.User.Identity as ClaimsIdentity;
-            var samAccountName = identity.Claims.Single(c => c.Type == "samAccountName").Value;
-            return PerformQlikviewTicketing(samAccountName);
+            return View(identity.Claims);
         }
                 
         [HttpGet]
