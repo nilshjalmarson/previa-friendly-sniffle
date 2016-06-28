@@ -1,0 +1,32 @@
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\bin\Debug\Previa.ExtranetUserAuthentication.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\bin\Debug\Previa.ExtranetUserAuthentication.pdb
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\bin\Debug\log4net.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\bin\Debug\Newtonsoft.Json.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\bin\Debug\Previa.AuthenticationAuthorization.Models.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\bin\Debug\Previa.Common.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\bin\Debug\Previa.Common.Rest.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\bin\Debug\Previa.ExtranetIdentityMapping.Models.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\bin\Debug\RestSharp.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\bin\Debug\se.previa.schemas.baseobjects.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\bin\Debug\log4net.xml
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\bin\Debug\Newtonsoft.Json.pdb
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\bin\Debug\Newtonsoft.Json.xml
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\obj\Debug\Previa.ExtranetUserAuthentication.csprojResolveAssemblyReference.cache
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\obj\Debug\Previa.ExtranetUserAuthentication.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication\obj\Debug\Previa.ExtranetUserAuthentication.pdb
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\obj\Debug\Previa.ExtranetUserAuthentication.csprojResolveAssemblyReference.cache
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\obj\Debug\Previa.ExtranetUserAuthentication.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\obj\Debug\Previa.ExtranetUserAuthentication.pdb
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\bin\Debug\Previa.ExtranetUserAuthentication.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\bin\Debug\Previa.ExtranetUserAuthentication.pdb
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\bin\Debug\log4net.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\bin\Debug\Newtonsoft.Json.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\bin\Debug\Previa.AuthenticationAuthorization.Models.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\bin\Debug\Previa.Common.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\bin\Debug\Previa.Common.Rest.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\bin\Debug\Previa.ExtranetIdentityMapping.Models.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\bin\Debug\RestSharp.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\bin\Debug\se.previa.schemas.baseobjects.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\bin\Debug\log4net.xml
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\bin\Debug\Newtonsoft.Json.pdb
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,113 @@
+2016-06-23 11:46:13,915 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-23 11:46:14,051 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-23 11:46:14,106 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-23 11:46:14,118 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-23 11:47:25,548 [9] ERROR  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Unhandled exception. System.Resources.MissingManifestResourceException: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "Previa.ExtranetUserAuthentication.ServiceProvider.Resources.AppResources.resources" was correctly embedded or linked into assembly "Previa.ExtranetUserAuthentication.Web" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+   at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at Previa.ExtranetUserAuthentication.ServiceProvider.Helpers.TranslationHelper.Translate(String resourceKey, Object[] args) in C:\Dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.ServiceProvider\Helpers\TranslationHelper.cs:line 13
+   at Previa.ExtranetUserAuthentication.ServiceProvider.Helpers.HtmlHelperExtensions.Translate(HtmlHelper helper, String resourceKey, Object[] args) in C:\Dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.ServiceProvider\Helpers\HtmlHelperExtensions.cs:line 8
+   at ASP._Page_Views_QlikView_SignIn_cshtml.Execute() in c:\Dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.ServiceProvider\Views\QlikView\SignIn.cshtml:line 4
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2016-06-23 11:49:04,119 [12] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-23 11:49:04,285 [12] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-23 11:49:04,362 [12] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-23 11:49:04,389 [12] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-23 13:17:56,399 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-23 13:17:56,570 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-23 13:17:56,640 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-23 13:17:56,664 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-23 13:20:57,157 [18] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-23 13:20:57,297 [18] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-23 13:20:57,358 [18] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-23 13:20:57,379 [18] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-23 13:21:01,049 [13] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Controllers.QlikViewController - Request for index 
+2016-06-23 13:21:01,273 [11] ERROR  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Unhandled exception. System.Web.HttpException (0x80004005): A public action method 'SAML Request to IDP' was not found on controller 'Previa.ExtranetUserAuthentication.ServiceProvider.Controllers.QlikViewController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2016-06-23 13:21:09,992 [11] ERROR  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Unhandled exception. System.Web.HttpException (0x80004005): A public action method 'SAML Request to IDP' was not found on controller 'Previa.ExtranetUserAuthentication.ServiceProvider.Controllers.QlikViewController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2016-06-23 13:22:42,166 [17] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Controllers.QlikViewController - Request for index 
+2016-06-23 13:22:42,317 [11] ERROR  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Unhandled exception. System.Web.HttpException (0x80004005): A public action method 'SAML Request to IDP' was not found on controller 'Previa.ExtranetUserAuthentication.ServiceProvider.Controllers.QlikViewController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2016-06-23 13:39:25,300 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-23 13:39:25,475 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-23 13:39:25,548 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-23 13:39:25,574 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-23 13:39:33,045 [48] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Controllers.QlikViewController - Request for index 
+2016-06-23 13:39:50,563 [18] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-23 13:39:50,713 [18] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-23 13:39:50,778 [18] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-23 13:39:50,802 [18] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-23 13:40:00,998 [49] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Controllers.QlikViewController - Request for index 
+2016-06-23 13:40:10,367 [48] DEBUG  Previa.ExtranetUserAuthentication.QlikViewTicket - Requesting WebTicket from QlikView. Posting '<Global method="GetWebTicket">
+  <UserId>samAccountName</UserId>
+</Global>' to 'http://192.168.1.70/QvAJAXZfc/GetWebTicket.aspx'. 
+2016-06-23 13:41:14,179 [48] ERROR  Previa.ExtranetUserAuthentication.ServiceProvider.Controllers.QlikViewController - Could not load file or assembly 'se.previa.schemas.baseobjects, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified. System.IO.FileNotFoundException: Could not load file or assembly 'se.previa.schemas.baseobjects, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'se.previa.schemas.baseobjects, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null'
+   at Previa.Common.Rest.RestException..ctor(String message, HttpStatusCode statusCode, String content, Exception innerException)
+   at Previa.ExtranetUserAuthentication.QlikViewTicket.GetWebTicket(String username) in C:\Dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\QlikViewTicket.cs:line 94
+   at Previa.ExtranetUserAuthentication.ServiceProvider.Controllers.QlikViewController.PerformQlikviewTicketing(String samAccountName) in C:\Dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.ServiceProvider\Controllers\QlikViewController.cs:line 114
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+

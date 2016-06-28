@@ -1,0 +1,92 @@
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Previa.ExtranetUserAuthentication.Web.dll.config
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Previa.ExtranetUserAuthentication.Web.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Previa.ExtranetUserAuthentication.Web.pdb
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Autofac.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Autofac.Integration.Mvc.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Bootstrapper.Autofac.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Bootstrapper.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\CommonServiceLocator.AutofacAdapter.Unofficial.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\dotless.Core.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\log4net.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Previa.AuthenticationAuthorization.Models.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Previa.Common.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Previa.Common.Rest.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Previa.ExtranetIdentityMapping.Models.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Previa.ExtranetUserAuthentication.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\se.previa.schemas.baseobjects.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\System.Web.Helpers.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\System.Web.Mvc.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\System.Web.Razor.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\System.Web.WebPages.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\System.Web.WebPages.Razor.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\RestSharp.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Newtonsoft.Json.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Previa.ExtranetUserAuthentication.pdb
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Autofac.xml
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Autofac.Integration.Mvc.xml
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\log4net.xml
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\System.Web.Helpers.xml
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\System.Web.Mvc.xml
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\System.Web.Razor.xml
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\System.Web.WebPages.xml
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\System.Web.WebPages.Razor.xml
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Newtonsoft.Json.pdb
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\bin\Newtonsoft.Json.xml
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\obj\Debug\Previa.ExtranetUserAuthentication.Web.csprojResolveAssemblyReference.cache
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\obj\Debug\Previa.ExtranetUserAuthentication.Web.Resources.AppResources.resources
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\obj\Debug\Previa.ExtranetUserAuthentication.Web.Resources.ModelResources.resources
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\obj\Debug\Previa.ExtranetUserAuthentication.Web.csproj.GenerateResource.Cache
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\obj\Debug\Previa.ExtranetUserAuthentication.Web.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\Previa.ExtranetUserAuthentication.Web\obj\Debug\Previa.ExtranetUserAuthentication.Web.pdb
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Previa.ExtranetUserAuthentication.Web.dll.config
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Previa.ExtranetUserAuthentication.Web.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Previa.ExtranetUserAuthentication.Web.pdb
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Autofac.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Autofac.Integration.Mvc.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Bootstrapper.Autofac.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Bootstrapper.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\CommonServiceLocator.AutofacAdapter.Unofficial.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\dotless.Core.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\log4net.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Microsoft.Practices.ServiceLocation.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Previa.AuthenticationAuthorization.Models.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Previa.Common.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Previa.Common.Rest.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Previa.ExtranetIdentityMapping.Models.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Previa.ExtranetUserAuthentication.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\se.previa.schemas.baseobjects.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\System.Web.Helpers.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\System.Web.Mvc.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\System.Web.Razor.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\System.Web.WebPages.Deployment.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\System.Web.WebPages.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\System.Web.WebPages.Razor.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\RestSharp.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Newtonsoft.Json.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Previa.ExtranetUserAuthentication.pdb
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Autofac.xml
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Autofac.Integration.Mvc.xml
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\log4net.xml
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Microsoft.Practices.ServiceLocation.xml
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\System.Web.Helpers.xml
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\System.Web.Mvc.xml
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\System.Web.Razor.xml
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\System.Web.WebPages.xml
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\System.Web.WebPages.Deployment.xml
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\System.Web.WebPages.Razor.xml
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Newtonsoft.Json.pdb
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\bin\Newtonsoft.Json.xml
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\obj\Debug\Previa.ExtranetUserAuthentication.Web.csprojResolveAssemblyReference.cache
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\obj\Debug\Previa.ExtranetUserAuthentication.Web.Resources.AppResources.resources
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\obj\Debug\Previa.ExtranetUserAuthentication.Web.Resources.ModelResources.resources
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\obj\Debug\Previa.ExtranetUserAuthentication.Web.csproj.GenerateResource.Cache
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\obj\Debug\Previa.ExtranetUserAuthentication.Web.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.Web\obj\Debug\Previa.ExtranetUserAuthentication.Web.pdb

@@ -1,0 +1,12 @@
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\AuthTest\bin\AuthTest.dll.config
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\AuthTest\bin\AuthTest.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\AuthTest\bin\AuthTest.pdb
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\AuthTest\obj\Debug\AuthTest.csprojResolveAssemblyReference.cache
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\AuthTest\obj\Debug\AuthTest.dll
+C:\Dev\FFCG\Previa\SVN\ExtranetUserAuthentication\trunk\AuthTest\obj\Debug\AuthTest.pdb
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\AuthTest\bin\AuthTest.dll.config
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\AuthTest\bin\AuthTest.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\AuthTest\bin\AuthTest.pdb
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\AuthTest\obj\Debug\AuthTest.csprojResolveAssemblyReference.cache
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\AuthTest\obj\Debug\AuthTest.dll
+C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\AuthTest\obj\Debug\AuthTest.pdb

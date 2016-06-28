@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask AssemblyFile="QQn.SourceServerSharp.dll" TaskName="QQn.SourceServerSharp.MSBuild.SourceServerIndexTask" />  
+
+  <PropertyGroup>
+    <SourceServerSdkDir Condition="'$(SourceServerSdkDir)'==''">C:\Program Files\Debugging Tools for Windows (x64)\srcsrv</SourceServerSdkDir>
+    <SourceServerProviders>
+      $(SourceServerProviders);
+      QQn.SourceServerSharp.Providers.SubversionResolver, QQn.SourceServerSharp;
+      QQn.SourceServerSharp.Providers.TeamFoundationResolver, QQn.SourceServerSharp;
+    </SourceServerProviders>
+    <SourceServerType Condition="'SourceServerType)'==''">AUTODETECT</SourceServerType>
+  </PropertyGroup>
+
+  <Target Name="AnnotateDebugSymbols">
+    <SourceServerIndexTask
+        SymbolRoots="$(SourceServerSymbolDirs)"
+        SourceRoots="$(SourceServerSourceDirs)"
+        SymbolFiles="$(SourceServerSymbolFiles)"
+        IncludeHiddenDirectories="$(SourceServerIncludeHiddenDirectories)"
+        IncludeDotDirs="$(SourceServerIncludeDotDirectories)"
+        NotRecursive="$(SourceServerRecursiveSearchDirectories)"
+        SourceServerSdkDir="$(SourceServerSdkDir)"
+        Providers="$(SourceServerProviders)"
+        Type="$(SourceServerType)"/>
+  </Target>
+</Project>

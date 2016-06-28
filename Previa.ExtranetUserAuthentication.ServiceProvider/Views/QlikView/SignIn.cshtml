@@ -1,0 +1,54 @@
+﻿@model Previa.ExtranetUserAuthentication.ServiceProvider.Models.CredentialsViewModel
+
+@{
+    ViewBag.Title = string.Format("{0} | {1}", System.Configuration.ConfigurationManager.AppSettings["ApplicationName"], Html.Translate("ApplicationTitle"));
+}
+
+@using (Html.BeginForm("SignIn", "QlikView"))
+{
+
+    <div id="wrapper">
+        <div id="logo">            
+            <img src="~/Content/Images/@System.Configuration.ConfigurationManager.AppSettings["LogoFile"]" />
+        </div>
+
+        <div id="panel">
+            @if (!ViewData.ModelState.IsValid)
+            {
+                @Html.ValidationSummary(true)
+            }
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+            {
+                <p class="errorMessage">@ViewBag.ErrorMessage</p>
+            }
+            @if (!string.IsNullOrEmpty(ViewBag.InfoMessage))
+            {
+                <p class="infoMessage">@ViewBag.InfoMessage</p>
+            }
+            <fieldset>
+                @Html.AntiForgeryToken()
+
+                <div class="row">
+                    @Html.LabelFor(m => m.Username)
+                    <div class="element last">@Html.TextBoxFor(m => m.Username)</div>
+                </div>
+
+                <div class="row">
+                    @Html.LabelFor(m => m.Password)
+                    <div class="element last">@Html.PasswordFor(m => m.Password)</div>
+                </div>
+
+                <div class="row actions">
+                    <button type="submit">@Html.Translate("SignIn")</button>
+                    <div id="loader" style="display: none;"></div>
+                </div>
+            </fieldset>
+
+        </div>
+
+        <div id="descr">
+            Om du inte har ett konto eller behöver annan hjälp ta kontakt med Kundservicecenter på telefon <strong class="orange">0771 - 45 00 56</strong> eller maila <a class="email orange" href="mailto:ksc@previa.se">ksc@previa.se</a>
+        </div>
+    </div>
+
+    }

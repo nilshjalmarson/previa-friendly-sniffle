@@ -1,0 +1,250 @@
+﻿// MIXINS
+// ------
+
+// Clearfix for clearing floats like a boss h5bp.com/q
+.clearfix() {
+  zoom: 1;
+	&:before,
+  &:after {
+    display: table;
+    content: "";
+    zoom: 1;
+    *display: inline;
+	}
+	&:after {
+    clear: both;
+	}
+}
+
+
+
+// COLOR
+// -----
+@colorApplicationbackground:	#f7f7f7;
+@colorPanelbackground:			#f2f2f2;
+
+@colorRed:						#eb3300;
+@colorLogored:					#e11b22;
+			
+@colorOrange:					#eb9933;
+
+@colorLightYellow:				#feffed;
+
+
+// FONT
+// ----
+@fontBase:						lucida grande, tahoma, verdana, arial, sans-serif;		// nicked it from fb
+@fontFormelement:				Courier New, Courier, monospace;
+@fontHint:						Verdana, Arial, sans-serif;
+
+@fontBasesize:					11px;
+
+@fontBasecolor:					#333;
+
+@fontLineheight:				1.7;
+
+
+
+
+body {
+
+	margin: 0 auto; padding: 0 auto;
+
+	background: @colorApplicationbackground;
+	font-family: @fontBase;
+	font-size: @fontBasesize;
+	line-height: @fontLineheight;
+	color: @fontBasecolor;
+	 
+	border-top: solid 4px @colorLogored;
+
+}
+
+form {
+	margin: 0 auto; padding: 0 auto;
+	padding-top: 96px;
+}
+
+
+div#wrapper {
+	
+	width: 442px;
+	margin: 0 auto; padding: 0 auto;
+    
+	#logo { height: 32px; padding: 12px; margin-bottom: 24px; }
+
+	#panel {
+		background: @colorPanelbackground;
+
+		fieldset {
+			.clearfix();
+
+			-webkit-margin-start: 0; -webkit-margin-end: 0;
+			-webkit-padding-before: 0; -webkit-padding-start: 0; -webkit-padding-end: 0; -webkit-padding-after: 0;
+
+			margin: 0; padding: 0;
+			border: none 0px transparent;
+
+			padding-top: 18px;
+			padding-bottom: 12px;
+
+			div, label { .clearfix(); }
+
+			.row { 
+				margin-bottom: 6px; 
+				padding-right: 6px;
+
+				label {
+					margin: 0; padding: 0;
+
+					display: block;
+					float: left;
+
+					width: 108px;
+					margin-right: 12px; 
+
+					line-height: 4; // important to vertical align text
+					font-weight: 700; 
+					text-align: right;
+				}
+
+				.element {
+					.clearfix();
+
+					display: inline;
+					float: left;
+					margin-right: 12px; padding: 6px;
+
+					line-height: 1.5;
+					text-align: left;
+
+					&.last { margin-right: 0px; }
+				}
+
+				&.actions { 
+					text-align: right;
+					padding-top: 6px;
+
+					> * { float: right; }
+				}
+			}
+			
+		}
+	}
+
+	#descr { padding: 18px; text-align: center; }
+}
+
+input {
+	resize: none; // chrome & ff necessary
+	
+	height: 26px; width: 278px;
+
+	padding: 6px 9px 5px 9px;
+
+	background-color: #f9f9f9;
+
+	boder: none 0 transparent;
+	border: solid 1px #e0e0e0; 
+	border-top: solid 1px #ccc;
+
+	font-family: @fontFormelement;
+	font-size: 16px; line-height: 24px;	// ATT! line-height must be set to a pixelvalue in order for the elastic to work
+	color: #000;
+
+	&:focus, &:active, &.iefocus {
+		outline: none 0 transparent;
+		outline: dotted 1px #666;
+		outline-offset: 1px;
+
+		border: solid 1px #666;
+		background-color: white;
+	}
+
+	&.input-validation-error {
+		border-color: lighten(@colorLogored, 20);
+		background-color: lighten(@colorLogored, 50);
+	}
+}
+
+button {
+	margin: 0 auto; padding: 0 auto;
+	margin-right: 12px;
+	padding: 5px 6px;
+	
+	color: #333;
+	font-family: @fontBase;
+	font-size: @fontBasesize;	// must be set
+	line-height: 1.3;
+	font-weight: 700;
+
+	background: #eee url(Images/button_bg.png) repeat-x;
+
+	border: solid 1px #c3c3c3;
+	border-bottom: solid 1px #888;
+
+	&:hover {
+		color: #000;
+		border-bottom-color: #888;
+	}
+
+	&:focus, &.iefocus {
+		outline: dotted 1px #555;
+		outline-offset: -3px;
+	}
+}
+
+.orange { color: @colorOrange; }
+.right { float: right; }
+
+a {
+	font-weight: 700;
+	text-decoration: none;
+	padding: 3px 0px;
+
+	&:hover { border-bottom: solid 1px @colorOrange; }
+}
+
+
+.validation-summary-errors {
+	.clearfix();
+	padding: 9px 18px;
+	background: #eee;
+	background: rgba(225,27,34,.04);
+
+	ul {
+		margin: 0; padding: 0;
+		list-style: none;
+		padding: 6px;
+
+		li { 
+			margin: 0; padding: 0;
+			padding: 3px;
+			list-style: none; 
+			font-weight: 700;
+			color: @colorLogored;
+		}
+	}
+}
+
+p.errorMessage,
+p.infoMessage {
+	font-weight: 700;
+	padding: 18px 27px;
+	margin: 0;
+}
+
+p.errorMessage {
+	background: #eee;
+	background: rgba(225,27,34,.04);
+	color: @colorLogored;
+}
+
+p.infoMessage {
+	background: #eee;
+	background: rgba(127,208,24,.08);
+	color: #7FCF18;
+}
+
+
+#loader { margin-top: 14px; margin-right: 15px; }

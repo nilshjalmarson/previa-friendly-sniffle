@@ -1,0 +1,19 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>@ViewBag.Title</title>
+        <link type="text/css" rel="stylesheet" href="@Url.ContentWithTimestamp("~/Content/ExtranetUserAuthentication.less")" />
+        <link rel="shortcut icon" href="@Url.Content( "~/favicon.ico" )" type="image/x-icon" />
+        <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-1.7.1.min.js")"></script>
+        <script type="text/javascript" src="@Url.Content("~/Scripts/jquery.validate.min.js")"></script>
+        <script type="text/javascript" src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")"></script>
+        <script type="text/javascript" src="@Url.Content("~/Scripts/spin.min.js")"></script>
+        <script type="text/javascript" src="@Url.Content("~/Scripts/previa.common.js")"></script>
+    </head>
+    <body>
+        @RenderBody()
+    </body>
+</html>

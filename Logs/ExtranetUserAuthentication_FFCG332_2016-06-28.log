@@ -1,0 +1,224 @@
+2016-06-28 12:53:19,969 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 12:53:20,151 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 12:53:20,212 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 12:53:20,230 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 12:53:53,650 [11] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Controllers.QlikViewController - Request for index 
+2016-06-28 12:53:53,782 [10] DEBUG  Previa.ExtranetUserAuthentication.QlikViewTicket - Requesting WebTicket from QlikView. Posting '<Global method="GetWebTicket">
+  <UserId>testanvändare</UserId>
+</Global>' to 'http://192.168.1.70/QvAJAXZfc/GetWebTicket.aspx'. 
+2016-06-28 12:54:57,270 [10] ERROR  Previa.ExtranetUserAuthentication.ServiceProvider.Controllers.QlikViewController - Could not load file or assembly 'se.previa.schemas.baseobjects, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified. System.IO.FileNotFoundException: Could not load file or assembly 'se.previa.schemas.baseobjects, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'se.previa.schemas.baseobjects, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null'
+   at Previa.Common.Rest.RestException..ctor(String message, HttpStatusCode statusCode, String content, Exception innerException)
+   at Previa.ExtranetUserAuthentication.QlikViewTicket.GetWebTicket(String username) in C:\Dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication\QlikViewTicket.cs:line 94
+   at Previa.ExtranetUserAuthentication.ServiceProvider.Controllers.QlikViewController.PerformQlikviewTicketing(String samAccountName) in C:\dev\FFCG\Previa\Extranet User Authentication\ExtranetUserAuthentication\Previa.ExtranetUserAuthentication.ServiceProvider\Controllers\QlikViewController.cs:line 124
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+
+2016-06-28 12:55:31,719 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 12:55:31,891 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 12:55:31,965 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 12:55:31,981 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 12:58:38,738 [22] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 12:58:38,903 [22] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 12:58:38,988 [22] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 12:58:39,011 [22] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 12:58:53,843 [18] ERROR  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Unhandled exception. System.InvalidOperationException: Finding cert through FindBySubjectName in CurrentUser:AddressBook with value Kentor.AuthServices.StubIdp matched 0 certificates. A unique match is required.
+   at Kentor.AuthServices.Configuration.CertificateElement.LoadCertificate()
+   at Kentor.AuthServices.IdentityProvider..ctor(IdentityProviderElement config, SPOptions spOptions)
+   at Kentor.AuthServices.Configuration.IdentityProviderCollection.RegisterIdentityProviders(IOptions options)
+   at Kentor.AuthServices.Configuration.Options.LoadOptionsFromConfiguration()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Kentor.AuthServices.Mvc.AuthServicesController.get_Options()
+   at Kentor.AuthServices.Mvc.AuthServicesController.Index()
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2016-06-28 14:03:46,593 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:03:46,778 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:03:46,851 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:03:46,874 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 14:04:06,145 [10] ERROR  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Unhandled exception. System.Web.HttpException (0x80004005): The controller for path '/ExtranetUserAuthentication.ServiceProvider/secure' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2016-06-28 14:04:32,748 [10] ERROR  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Unhandled exception. System.Web.HttpException (0x80004005): The controller for path '/ExtranetUserAuthentication.ServiceProvider/Secure' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2016-06-28 14:05:26,841 [16] ERROR  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Unhandled exception. System.Configuration.ConfigurationErrorsException: Idp "http://stubidp.kentor.se/Metadata" is configured for signed AuthenticateRequests, but ServiceCertificates configuration contains no certificate with usage "Signing" or "Both". To resolve this issue you can a) add a service certificate with usage "Signing" or "Both" (default if not specified is "Both") or b) Set the AuthenticateRequestSigningBehavior configuration property to "Never".
+   at Kentor.AuthServices.IdentityProvider.CreateAuthenticateRequest(AuthServicesUrls authServicesUrls)
+   at Kentor.AuthServices.WebSso.SignInCommand.InitiateLoginToIdp(IOptions options, IDictionary`2 relayData, AuthServicesUrls urls, IdentityProvider idp, Uri returnUrl)
+   at Kentor.AuthServices.WebSso.SignInCommand.Run(EntityId idpEntityId, String returnPath, HttpRequestData request, IOptions options, IDictionary`2 relayData)
+   at Kentor.AuthServices.WebSso.SignInCommand.Run(HttpRequestData request, IOptions options)
+   at Kentor.AuthServices.Mvc.AuthServicesController.SignIn()
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2016-06-28 14:07:57,086 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:07:57,286 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:07:57,359 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:07:57,382 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 14:08:52,694 [10] ERROR  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Unhandled exception. System.InvalidOperationException: FederatedAuthentication.SessionAuthenticationModule is null, make sure you have loaded the SessionAuthenticationModule in web.config. See https://github.com/KentorIT/authservices/blob/master/doc/Configuration.md#loading-modules
+   at Kentor.AuthServices.HttpModule.CommandResultHttpExtension.EnsureSessionAuthenticationModuleAvailable()
+   at Kentor.AuthServices.HttpModule.CommandResultHttpExtension.SignInOrOutSessionAuthenticationModule(CommandResult commandResult)
+   at Kentor.AuthServices.Mvc.AuthServicesController.Acs()
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2016-06-28 14:12:34,569 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:12:34,775 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:12:34,851 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:12:34,871 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 14:15:07,305 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:15:07,474 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:15:07,537 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:15:07,556 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 14:15:50,270 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:15:50,436 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:15:50,505 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:15:50,526 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 14:18:20,589 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:18:20,757 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:18:20,831 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:18:20,857 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 14:20:45,137 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:20:45,353 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:20:45,434 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:20:45,460 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 14:25:12,927 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:25:13,091 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:25:13,156 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:25:13,176 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 14:25:49,109 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:25:49,278 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:25:49,342 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:25:49,361 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 14:26:45,511 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:26:45,661 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:26:45,727 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:26:45,744 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 14:28:01,814 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:28:01,974 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:28:02,040 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:28:02,053 [1] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 14:28:46,800 [35] ERROR  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Unhandled exception. Kentor.AuthServices.Exceptions.UnexpectedInResponseToException: Received message contains unexpected InResponseTo "id0f61a410439b4f0d8b42e2082283af1c". No RelayState was detected so message was not expected to have an InResponseTo attribute.
+   at Kentor.AuthServices.Saml2P.Saml2Response.ReadAndValidateInResponseTo(XmlElement xml, Saml2Id expectedInResponseTo)
+   at Kentor.AuthServices.Saml2P.Saml2Response..ctor(XmlElement xml, Saml2Id expectedInResponseTo)
+   at Kentor.AuthServices.WebSso.AcsCommand.Run(HttpRequestData request, IOptions options)
+   at Kentor.AuthServices.Mvc.AuthServicesController.Acs()
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2016-06-28 14:29:23,702 [44] ERROR  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Unhandled exception. System.Web.HttpException (0x80004005): The controller for path '/ExtranetUserAuthentication.ServiceProvider/qlickview/secure' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2016-06-28 14:30:45,025 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:30:45,193 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:30:45,262 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:30:45,287 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 14:41:28,828 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:41:29,006 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:41:29,074 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:41:29,095 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 
+2016-06-28 14:48:11,290 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application starting... 
+2016-06-28 14:48:11,477 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.AutofacRegistration - Building Autofac container... 
+2016-06-28 14:48:11,552 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.Bootstrapping.RoutingStartupTask - Registering routes... 
+2016-06-28 14:48:11,583 [19] DEBUG  Previa.ExtranetUserAuthentication.ServiceProvider.MvcApplication - Application started. 

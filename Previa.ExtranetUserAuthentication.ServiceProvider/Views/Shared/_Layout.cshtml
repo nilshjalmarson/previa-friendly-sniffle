@@ -1,0 +1,14 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>@ViewBag.Title</title>
+        <link type="text/css" rel="stylesheet" href="@Url.ContentWithTimestamp("~/Content/ExtranetUserAuthentication.less")" />
+        <link rel="shortcut icon" href="@Url.Content( "~/favicon.ico" )" type="image/x-icon" />        
+    </head>
+    <body>
+        @RenderBody()
+    </body>
+</html>

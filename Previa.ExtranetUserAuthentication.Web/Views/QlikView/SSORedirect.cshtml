@@ -1,0 +1,71 @@
+﻿@model Previa.ExtranetUserAuthentication.Web.Models.SSORedirectViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>@System.Configuration.ConfigurationManager.AppSettings["ApplicationName"] | Automatiskt utloggad</title>
+<link type="text/css" rel="stylesheet" href="@Url.ContentWithTimestamp("~/Content/ExtranetUserAuthentication.less")" />
+<link rel="shortcut icon" href="@Url.Content( "~/favicon.ico" )" type="image/x-icon" />
+
+<style>
+
+fieldset {
+	text-align: center;
+}
+
+#startpage-logotype {
+	
+	background-image: url("@Model.CompanyImageUrl");
+	background-position: 0px -681px;
+	background-repeat: none;
+	display: block;
+	height: 20px;
+	width: 235px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-indent: -9999px;
+}
+#startpage-logotype:hover { border: none; }
+#af-info {
+	margin: 6px auto;
+	padding: 24px;
+	font-size: 1.2em;
+}
+</style>
+
+</head>
+<body>
+<form action="" method="post">
+  <div id="wrapper">
+    <div id="logo"></div>
+    <div id="panel">
+      <fieldset style="padding-top: 20px;">
+		<a href="/" title="Till startsidan" id="startpage-logotype">@Model.CompanyName</a>
+        <div id="af-info">
+            @if (string.IsNullOrEmpty(ViewBag.InfoMessage) && string.IsNullOrEmpty(ViewBag.ErrorMessage))
+            {
+        	<div>Du har loggats ut automatiskt eftersom du varit inaktiv över 20 minuter. Vänligen stäng detta fönster och klicka ännu en gång på länken till Statistikverktyget för att logga in igen
+            </div>
+            }
+
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+            {
+                <p class="errorMessage">@ViewBag.ErrorMessage</p>
+            }
+            @if (!string.IsNullOrEmpty(ViewBag.InfoMessage))
+            {
+                <div>@ViewBag.InfoMessage</div>
+            }
+            <a href="@Model.RedirectLink" style="color:black">...</a>
+        </div>
+      </fieldset>
+    </div>
+    <div id="descr"> Om du inte har ett konto eller behöver annan hjälp ta kontakt med Kundservicecenter på telefon <strong class="orange">0771 - 45 00 56</strong> eller maila <a class="email orange" href="mailto:ksc@previa.se">ksc@previa.se</a> </div>
+  </div>
+</form>
+</body>
+</html>
